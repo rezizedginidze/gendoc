@@ -1,0 +1,40 @@
+{
+  "name": "gendoc",
+  "version": "1.0.0",
+  "description": "CLI Tool for ADR and Technical Specification Generation",
+  "author": "Revazi Zedginidze",
+  "license": "MIT",
+  "main": "dist/cli.js",
+  "files": [
+    "dist",
+    "assets"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "build": "tsc"
+  },
+  "bin": {
+    "gendoc": "./dist/cli.js"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "yargs": "17.7.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "17.6.7",
+    "@commitlint/config-conventional": "17.6.7",
+    "@types/node": "20.4.9",
+    "@types/yargs": "17.0.24",
+    "@typescript-eslint/eslint-plugin": "6.3.0",
+    "@typescript-eslint/parser": "6.3.0",
+    "eslint": "8.46.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "^14.0.1",
+    "prettier": "3.0.1",
+    "pretty-quick": "3.1.3",
+    "standard-version": "9.5.0",
+    "typescript": "5.1.6"
+  }
+}

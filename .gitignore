@@ -1,0 +1,15 @@
+# IntelliJ
+*.iml
+.idea
+
+# Project specific
+dist
+
+# Packed artifacts
+gendoc-*.tgz
+
+# node / npm
+node_modules
+
+# OS
+.DS_Store
