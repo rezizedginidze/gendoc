@@ -1,5 +1,3 @@
-// noinspection JSUnusedGlobalSymbols
-
 import { existsSync, readdirSync, readFileSync, writeFileSync } from "fs";
 import { join, resolve } from "path";
 import type { Arguments, CommandBuilder } from "yargs";
